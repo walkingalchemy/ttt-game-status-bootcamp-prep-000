@@ -33,12 +33,12 @@ def full?(board)
 end
 
 def draw?(board)
- # (won?(board) && !full?(board))
- if won?(board)
-   return false
- elsif !full?(board)
-   return false
- else
-   return true
- end
+ (won?(board) && !full?(board))
+ # if won?(board)
+ #   return false
+ # elsif !full?(board)
+ #   return false
+ # else
+ #   return true
+ # end
 end
